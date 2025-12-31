@@ -204,11 +204,22 @@ const Landing = () => {
             </section>
 
             {/* 7. Footer */}
+            <footer className="bg-white py-16 px-4 border-t-4 border-black">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+                    <div>
+                        <div className="flex items-center gap-3 mb-6">
+                            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="36" height="36" rx="8" fill="black" stroke="black" strokeWidth="4" />
+                                <path d="M20 12L28 28H12L20 12Z" fill="white" />
+                                <rect x="18" y="24" width="4" height="8" fill="black" />
+                            </svg>
+                            <h3 className="text-3xl font-black uppercase tracking-tighter">Accessly</h3>
+                        </div>
                         <p className="font-bold text-gray-500 mb-6 max-w-sm">
                             Open source role-based authentication system.
                         </p>
                         <div className="flex gap-4">
-                            <div className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold border-2 border-black hover:bg-white hover:text-black transition-colors cursor-pointer">GH</div>
+                            <a href="https://github.com/btwitsPratyush/Accessly" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold border-2 border-black hover:bg-white hover:text-black transition-colors cursor-pointer">GH</a>
                             <div className="w-12 h-12 bg-blue-500 flex items-center justify-center text-white font-bold border-2 border-black hover:bg-white hover:text-black transition-colors cursor-pointer">TW</div>
                             <div className="w-12 h-12 bg-pink-500 flex items-center justify-center text-white font-bold border-2 border-black hover:bg-white hover:text-black transition-colors cursor-pointer">IG</div>
                         </div>
@@ -232,12 +243,12 @@ const Landing = () => {
                             <a href="#" className="font-bold text-gray-600 hover:text-black hover:underline">Contact</a>
                         </div>
                     </div>
-                </div >
-    <div className="flex justify-between items-center max-w-7xl mx-auto mt-16 py-8 border-t-4 border-gray-100 font-bold text-gray-400">
-        <p>&copy; 2026 Accessly. All rights reserved.</p>
-        <p>Built with ❤️ by Pratyush</p>
-    </div>
-            </footer >
+                </div>
+                <div className="flex justify-between items-center max-w-7xl mx-auto mt-16 py-8 border-t-4 border-gray-100 font-bold text-gray-400">
+                    <p>&copy; 2026 Accessly. All rights reserved.</p>
+                    <p>Built with ❤️ by <a href="https://github.com/btwitsPratyush" target="_blank" rel="noopener noreferrer" className="hover:text-black hover:underline">Pratyush</a></p>
+                </div>
+            </footer>
 
         </div >
     );
