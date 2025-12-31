@@ -203,8 +203,6 @@ PUT /api/admin/users/12345/status
 
 ---
 
----
-
 ## 🎥 **Video Walkthrough**
 
 **[▶️ WATCH THE PROJECT DEMO](YOUR_GOOGLE_DRIVE_OR_YOUTUBE_LINK_HERE)**
