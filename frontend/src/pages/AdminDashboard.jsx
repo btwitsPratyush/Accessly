@@ -18,7 +18,7 @@ const AdminDashboard = () => {
     const fetchUsers = async () => {
         try {
             setLoading(true);
-            const { data } = await API.get(`/admin/users?page=${page}&limit=10`);
+            const { data } = await API.get(`/admin/users?page=${page}&limit=3`);
             setUsers(data.users || []);
             setTotalPages(data.totalPages || 1);
             setLoading(false);
