@@ -1,0 +1,14 @@
+{
+    "name": "accessly-root",
+    "version": "1.0.0",
+    "description": "Accessly Root Project",
+    "scripts": {
+        "postinstall": "cd backend && npm install && cd ../frontend && npm install",
+        "dev:frontend": "cd frontend && npm run dev",
+        "dev:backend": "cd backend && npm run dev",
+        "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.0"
+    }
+}
