@@ -196,7 +196,7 @@ const Landing = () => {
                         <Link to="/signup" className="inline-block px-12 py-6 bg-blue-500 text-white text-2xl font-black border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all hover:bg-blue-600">
                             Get Started Now
                         </Link>
-                        <a href="https://github.com/pratyushkumar/Accessly" className="inline-block px-12 py-6 bg-white text-black text-2xl font-black border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all hover:bg-gray-100">
+                        <a href="https://github.com/btwitsPratyush/Accessly" target="_blank" rel="noopener noreferrer" className="neobrutal-button bg-white text-black text-xl px-8 py-3 rounded-none border-4 border-black font-bold transform transition-transform hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
                             Github Repo
                         </a>
                     </div>
@@ -204,17 +204,6 @@ const Landing = () => {
             </section>
 
             {/* 7. Footer */}
-            <footer className="bg-white py-16 px-4">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
-                    <div>
-                        <div className="flex items-center gap-3 mb-6">
-                            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="2" y="2" width="36" height="36" rx="8" fill="black" stroke="black" strokeWidth="4" />
-                                <path d="M20 12L28 28H12L20 12Z" fill="white" />
-                                <rect x="18" y="24" width="4" height="8" fill="black" />
-                            </svg>
-                            <h3 className="text-3xl font-black uppercase tracking-tighter">Accessly</h3>
-                        </div>
                         <p className="font-bold text-gray-500 mb-6 max-w-sm">
                             Open source role-based authentication system.
                         </p>
@@ -243,14 +232,14 @@ const Landing = () => {
                             <a href="#" className="font-bold text-gray-600 hover:text-black hover:underline">Contact</a>
                         </div>
                     </div>
-                </div>
-                <div className="flex justify-between items-center max-w-7xl mx-auto mt-16 py-8 border-t-4 border-gray-100 font-bold text-gray-400">
-                    <p>&copy; 2026 Accessly. All rights reserved.</p>
-                    <p>Built with ❤️ by Pratyush</p>
-                </div>
-            </footer>
+                </div >
+    <div className="flex justify-between items-center max-w-7xl mx-auto mt-16 py-8 border-t-4 border-gray-100 font-bold text-gray-400">
+        <p>&copy; 2026 Accessly. All rights reserved.</p>
+        <p>Built with ❤️ by Pratyush</p>
+    </div>
+            </footer >
 
-        </div>
+        </div >
     );
 };
 
