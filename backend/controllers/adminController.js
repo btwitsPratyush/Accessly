@@ -35,7 +35,7 @@ exports.getUsers = async (req, res) => {
             success: true,
             count: users.length,
             total,
-            totalPages: Math.ceil(total / limit),
+            totalPages: total > 0 ? Math.ceil(total / limit) : 1,
             pagination,
             users,
         });

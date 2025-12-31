@@ -19,8 +19,8 @@ const AdminDashboard = () => {
         try {
             setLoading(true);
             const { data } = await API.get(`/admin/users?page=${page}&limit=10`);
-            setUsers(data.users);
-            setTotalPages(data.totalPages);
+            setUsers(data.users || []);
+            setTotalPages(data.totalPages || 1);
             setLoading(false);
         } catch (error) {
             console.error("Failed to fetch users", error);
